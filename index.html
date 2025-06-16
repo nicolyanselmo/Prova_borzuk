@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova Borzuk</title>
+    <style>
+        /* Estilo para posicionar a logo no canto superior direito */
+        #logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        /* Estilo para centralizar a imagem "avalia" */
+        #avalia {
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px; /* Ajuste conforme necessário */
+        }
+        
+        /* Centralizar o botão */
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <br><img src="logo.png" alt="colégio" width="300">
+    <!-- Logo no canto superior direito -->
+    <img src="logo.png" alt="colégio" width="300">
+    
+    <!-- Imagem "avalia" centralizada -->
     <img src="avalia.png" alt="avaliação" width="300">
-    <br>
-    <button>Clique em mim!</button>
+    
+    <!-- Botão que redireciona para outra página -->
+    <button onclick="window.location.href='outra_pagina.html'">Clique em mim!</button>
 </body>
 </html>
