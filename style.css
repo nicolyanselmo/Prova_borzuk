@@ -1,1 +1,21 @@
-
+  /* Estilo para posicionar a logo no canto superior direito */
+        #logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        /* Estilo para centralizar a imagem "avalia" */
+        #avalia {
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px; /* Ajuste conforme necessário */
+        }
+        
+        /* Centralizar o botão */
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
